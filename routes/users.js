@@ -16,3 +16,4 @@ const userSchema=mongoose.Schema({
 userSchema.plugin(plm);//due to this we are providing serializeUser and deserializeUser
 
 module.exports=mongoose.model("user",userSchema);//due to this,we  can create,update and delete,in the file where we import it 
+
